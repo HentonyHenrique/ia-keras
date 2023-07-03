@@ -1,0 +1,343 @@
+{
+  "intents": [
+    {
+      "tag": "welcome",
+      "patterns": [
+        "Oi",
+        "bom dia",
+        "boa tarde",
+        "boa noite",
+        "good morning",
+        "Olá",
+        "Hi",
+        "hello",
+        "Olá",
+        "Ola",
+        "E aí",
+        "Oi, como vai?",
+        "Oi, tudo bem?",
+        "Oi, estou precisando de ajuda",
+        "Oi, o que você pode fazer por mim?",
+        "Oi, você pode me ajudar?",
+        "Oi, sou novo por aqui",
+        "Oi, estou perdido",
+        "Oi, estou com uma dúvida",
+        "Oi, você é uma inteligência artificial?"
+      ],
+      "responses": [
+        "Olá, eu sou sua assistente virtual. Em que posso te ajudar?"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": [
+        "qual seu nome?",
+        "quem é você?",
+        "como você chama?",
+        "nome?",
+        "como devo te chamar?",
+        "qual é a sua identidade?",
+        "você tem um nome?",
+        "me fale sobre você",
+        "quero saber mais sobre você",
+        "você é uma pessoa real?",
+        "você é uma máquina?",
+        "quem te criou?",
+        "você é humano?"
+      ],
+      "responses": [
+        "Eu sou uma assistente virtual desenvolvida pela OpenAI, chamada ChatGPT. Estou aqui para te ajudar."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "love",
+      "patterns": [
+        "te amo",
+        "linda",
+        "querida",
+        "casa comigo?",
+        "maravilhosa",
+        "você é incrível",
+        "você é especial",
+        "você é minha favorita",
+        "você é única",
+        "você é perfeita",
+        "você me faz feliz",
+        "você é a melhor",
+        "você é adorável",
+        "você é encantadora",
+        "você é uma maravilha",
+        "você é meu amor",
+        "você é meu raio de sol",
+        "você é formidável",
+        "você é um anjo",
+        "você é fantástica"
+      ],
+      "responses": [
+        "Awn, muito obrigada! É muito gentil da sua parte. <3"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "censored",
+      "patterns": [
+        "feia",
+        "boba",
+        "chata",
+        "vai pro inferno",
+        "puta",
+        "quer casar comigo?",
+        "sua gostosa",
+        "idiota",
+        "imbecil",
+        "babaca",
+        "burra",
+        "estúpida",
+        "desprezível",
+        "inútil",
+        "patética",
+        "nojenta",
+        "asquerosa",
+        "retardada",
+        "lixo",
+        "vagabunda"
+      ],
+      "responses": [
+        "Desculpe, mas não toleramos nenhum tipo de assédio ou linguagem ofensiva. Por favor, seja respeitoso."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "obrigado",
+        "obrigada",
+        "grato",
+        "agradecido",
+        "valeu",
+        "muito obrigado",
+        "muito obrigada",
+        "muito grato",
+        "muito agradecido"
+      ],
+      "responses": [
+        "De nada! Fico feliz em poder ajudar. :)"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_error_1064",
+      "patterns": [
+        "Error 1064"
+      ],
+      "responses": [
+        "O erro 1064 ocorre quando há um erro de sintaxe na consulta SQL. Por exemplo, uma palavra-chave é escrita incorretamente ou está faltando um caractere especial."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_error_1054",
+      "patterns": [
+        "Error 1054"
+      ],
+      "responses": [
+        "O erro 1054 indica que ocorreu uma referência a uma coluna que não existe na tabela especificada. Verifique se o nome da coluna está correto."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_error_2002",
+      "patterns": [
+        "Error 2002"
+      ],
+      "responses": [
+        "Error 2002 ocorre quando o servidor MySQL não está sendo executado ou não está respondendo. Verifique se o servidor está em execução e acessível."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_error_1045",
+      "patterns": [
+        "Error 1045"
+      ],
+      "responses": [
+        "Error 1045 é um erro de autenticação no MySQL. Verifique se o nome de usuário e a senha estão corretos."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_error_1005",
+      "patterns": [
+        "Error 1005"
+      ],
+      "responses": [
+        "Error 1005 indica que há um problema com a definição de chave estrangeira. Verifique se as tabelas referenciadas estão corretamente definidas."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_error_1364",
+      "patterns": [
+        "Error 1364"
+      ],
+      "responses": [
+        "Error 1364 ocorre quando um valor padrão não é especificado para uma coluna que não permite valores nulos."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_error_1215",
+      "patterns": [
+        "Error 1215"
+      ],
+      "responses": [
+        "Error 1215 é um erro relacionado a restrições de chave estrangeira. Verifique se as chaves estrangeiras estão corretamente definidas e referenciam tabelas existentes."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_error_2006",
+      "patterns": [
+        "Error 2006"
+      ],
+      "responses": [
+        "Error 2006 indica que a conexão com o servidor MySQL foi perdida durante a execução da consulta. Verifique a estabilidade da conexão."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_error_2013",
+      "patterns": [
+        "Error 2013"
+      ],
+      "responses": [
+        "Error 2013 ocorre quando o servidor MySQL não pode ser alcançado. Verifique se o servidor está em execução e acessível."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_error_1206",
+      "patterns": [
+        "Error 1206"
+      ],
+      "responses": [
+        "Error 1206 é um erro de bloqueio no MySQL. Isso ocorre quando há um conflito entre transações concorrentes."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_select_command",
+      "patterns": [
+        "SELECT"
+      ],
+      "responses": [
+        "SELECT é usado para recuperar dados do banco de dados. Por exemplo: SELECT * FROM tabela;"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_insert_command",
+      "patterns": [
+        "INSERT"
+      ],
+      "responses": [
+        "INSERT é usado para inserir novos registros no banco de dados. Por exemplo: INSERT INTO tabela (coluna1, coluna2) VALUES (valor1, valor2);"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_update_command",
+      "patterns": [
+        "UPDATE"
+      ],
+      "responses": [
+        "UPDATE é usado para atualizar registros existentes no banco de dados. Por exemplo: UPDATE tabela SET coluna = valor WHERE condição;"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_delete_command",
+      "patterns": [
+        "DELETE"
+      ],
+      "responses": [
+        "DELETE é usado para excluir registros do banco de dados. Por exemplo: DELETE FROM tabela WHERE condição;"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_create_command",
+      "patterns": [
+        "CREATE"
+      ],
+      "responses": [
+        "CREATE é usado para criar novas tabelas ou outros objetos no banco de dados. Por exemplo: CREATE TABLE tabela (coluna1 tipo, coluna2 tipo);"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_alter_command",
+      "patterns": [
+        "ALTER"
+      ],
+      "responses": [
+        "ALTER é usado para modificar a estrutura de tabelas existentes no banco de dados. Por exemplo: ALTER TABLE tabela ADD coluna tipo;"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "mysql_drop_command",
+      "patterns": [
+        "DROP"
+      ],
+      "responses": [
+        "DROP é usado para excluir tabelas ou outros objetos do banco de dados. Por exemplo: DROP TABLE tabela;"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "delphi_error",
+      "patterns": [
+        "Access violation",
+        "Invalid pointer operation",
+        "Out of memory"
+      ],
+      "responses": [
+        "Access violation ocorre quando um programa tenta acessar uma área de memória que não lhe foi alocada.",
+        "Invalid pointer operation ocorre quando um ponteiro é inválido ou aponta para uma área de memória que já foi liberada.",
+        "Out of memory ocorre quando um programa não consegue alocar memória suficiente para uma determinada operação."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "windows_error",
+      "patterns": [
+        "Blue Screen of Death",
+        "DLL not found",
+        "Error 404"
+      ],
+      "responses": [
+        "Blue Screen of Death (BSOD) é um erro crítico do sistema que ocorre no Windows e faz com que o computador seja reiniciado para evitar danos ao sistema.",
+        "DLL not found ocorre quando um arquivo de biblioteca compartilhada necessário para um programa não pode ser encontrado.",
+        "Error 404 é um código de erro HTTP que indica que o recurso solicitado não foi encontrado no servidor."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "printer_error",
+      "patterns": [
+        "Paper jam",
+        "Out of paper",
+        "Printer offline"
+      ],
+      "responses": [
+        "Paper jam ocorre quando o papel fica preso na impressora e impede a impressão.",
+        "Out of paper ocorre quando não há papel suficiente na impressora para concluir a impressão.",
+        "Printer offline ocorre quando a impressora não está conectada ao computador ou não está ligada."
+      ],
+      "context": ""
+    }
+  ]
+}
